@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id":1,
+            "nama" : "Administrator"
+        },
+        {
+            "id":2,
+            "nama" : "Web Developer"
+        },
+        {
+            "id":3,
+            "nama" : "Data Analyst"
+        },
+        {
+            "id":4,
+            "nama" : "Quality Assurance"
+        },
+        {
+            "id":5,
+            "nama" : "Perhotelan"
+        },
+        {
+            "id":6,
+            "nama" : "Perbankan"
+        },
+        {
+            "id":7,
+            "nama" : "Retail"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "wilayah" : [
+        {
+            "id" : 1,
+            "wilayah" : "Jakarta"
+        },
+        {
+            "id" : 2,
+            "wilayah" : "Tangerang"
+        },
+        {
+            "id" : 3,
+            "wilayah" : "Depok"
+        },
+        {
+            "id" : 4,
+            "wilayah" : "Bogor"
+        }
+    ]
+}
