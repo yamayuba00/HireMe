@@ -2,39 +2,83 @@
     "data" : [
         {
             "tipe": "reguler",
+            "tipeData": {
+                "tipe": "reguler",
+                "batasWaktu" : null
+            },
             "namaLowongan": "Belajar perusahaan A",
             "perusahaan": {
-                "nama" : "PT Perusahaan A",
-                "logo": "https://ui-avatars.com/api/?name=random"
+                "nama" : "PT Perusahaan A"
             },
             "pendaftaranTerakhir" : "20 Maret 2023",
             "ekspetasi" : {
                 "gaji" : 4000000
-            }
+            },
+            "createdAt" : "12-03-2023"
         },
         {
             "tipe": "iklan",
+            "tipeData": {
+                "tipe": "reguler",
+                "batasWaktu" : "15-03-2023"
+            },
             "namaLowongan": "Belajar perusahaan B",
             "perusahaan": {
-                "nama" : "PT Perusahaan B",
-                "logo": "https://ui-avatars.com/api/?name=random"
+                "nama" : "PT Perusahaan B"
             },
             "pendaftaranTerakhir" : "15 Maret 2023",
             "ekspetasi" : {
                 "gaji" : 4500000
-            }
+            },
+            "createdAt" : "12-03-2023"
         },
         {
             "tipe": "iklan",
+            "tipeData": {
+                "tipe": "reguler",
+                "batasWaktu" : "18-03-2023"
+            },
             "namaLowongan": "Belajar perusahaan C",
             "perusahaan": {
-                "nama" : "PT Perusahaan C",
-                "logo": "https://ui-avatars.com/api/?name=random"
+                "nama" : "PT Perusahaan C"
             },
             "pendaftaranTerakhir" : "20 Maret 2023",
             "ekspetasi" : {
                 "gaji" : 5000000
-            }
+            },
+            "createdAt" : "12-03-2023"
+        },
+        {
+            "tipe": "iklan",
+            "tipeData": {
+                "tipe": "reguler",
+                "batasWaktu" : "11-03-2023"
+            },
+            "namaLowongan": "Belajar perusahaan D",
+            "perusahaan": {
+                "nama" : "PT Perusahaan D"
+            },
+            "pendaftaranTerakhir" : "20 Maret 2023",
+            "ekspetasi" : {
+                "gaji" : 0
+            },
+            "createdAt" : "10-03-2023"
+        },
+        {
+            "tipe": "iklan",
+            "tipeData": {
+                "tipe": "reguler",
+                "batasWaktu" : "13-03-2023"
+            },
+            "namaLowongan": "Belajar perusahaan E",
+            "perusahaan": {
+                "nama" : "PT Perusahaan E"
+            },
+            "pendaftaranTerakhir" : "20 Maret 2023",
+            "ekspetasi" : {
+                "gaji" : 0
+            },
+            "createdAt" : "10-03-2023"
         }
     ]
 }

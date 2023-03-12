@@ -21,25 +21,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Cari Kerja</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kategori
+                        </a>
+                        <ul class="dropdown-menu" id="menuKategori"></ul>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tips Kerja</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Seminar Kerja</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Kategori
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                    
                 </ul>
                 <div class="d-flex gap-1">
                     <a href="#" class="btn btn-sm btn-dark px-4 fw-bolder py-1">Login/Daftar</a>
@@ -65,21 +59,24 @@
     <!-- jumbotron -->
 
     <!-- section wilayah -->
-    <div class="container my-4">
+    <section class="container my-4">
         <h5>Kategori <span class="fw-bold">HireMe!</span></h5>
         <!-- pake script json -->
         <div id="kategori"></div>
         <!-- pake script json -->
-    </div>
+    </section>
     <!-- section semat -->
-    <div class="container my-4">
+    <section class="container my-4">
         <h5>Disematkan <span class="fw-bold">HireMe!</span></h5>
         <!-- pake script json -->
-        <div id="sematkan"></div>
+        <div class="row" id="iklan">            
+        </div>
         <!-- pake script json -->
-    </div>
+    </section>
     <!-- section semat -->
     <!-- <script src="js/jquery-ui.js"></script> -->
+
+    <script src="js/data/hireMe.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

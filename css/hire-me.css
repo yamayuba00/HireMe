@@ -7,3 +7,23 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.img-width{
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+
+.semat-iklan {
+    font-size: 12px;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.semat-title {
+    font-size: 16px;
+}
+.semat-pt {
+    font-size: 14px;
+}
